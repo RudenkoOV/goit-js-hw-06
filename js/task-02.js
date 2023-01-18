@@ -14,7 +14,6 @@ function createIngridients (items) {
   itemEl[i] = document.createElement("li");
   itemEl[i].className = 'item';
   itemEl[i].textContent = items[i];
-  console.log(itemEl[i]);
 }
 return itemEl;
 }
