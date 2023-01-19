@@ -5,6 +5,6 @@ inputForm.addEventListener('input', getTextSize);
 
 function getTextSize(event) {
     console.log(`${ event.currentTarget.value }`);
-    textEl.style.fontSize = `${event.target.value}px`;
+    textEl.style.fontSize=`${event.target.value}px`;
 }
 
