@@ -7,7 +7,7 @@ function checkForm(event) {
     const elements = event.currentTarget;
 
   if (elements.email.value === "" || elements.password.value === "") {
-    return console.log("Alert!");
+    return alert("Пустое поле email или password");
   }
       const refs = {
           email: elements.email.value,
