@@ -12,7 +12,8 @@ function checkForm(event) {
       const refs = {
           email: elements.email.value,
           password: elements.password.value
-    }
-    return console.log(`Значение поля email: ${refs.email}, password: ${refs.password}`);
+  }
     event.currentTarget.reset();
+    return console.log(`Значение поля email: ${refs.email}, password: ${refs.password}`);
+    
 }
